@@ -13,8 +13,6 @@ app.use(cors());
 // Database Connection With MongoDB
 mongoose.connect("mongodb+srv://Clera:Clera1130@cluster0.mdtpjpo.mongodb.net/e-commerce");
 
-// paste your mongoDB Connection string above with password
-// password should not contain '@' special character
 
 
 //Image Storage Engine 
