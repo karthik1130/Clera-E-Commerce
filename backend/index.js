@@ -94,7 +94,7 @@ app.post('/login', async (req, res) => {
           id: user.id
         }
       }
-      success = true;
+      success = true; 
       console.log(user.id);
       const token = jwt.sign(data, 'secret_ecom');
       res.json({ success, token });
